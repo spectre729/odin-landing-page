@@ -1,4 +1,47 @@
-* {
-    font-family: Roboto;
+*{
+    font-family: Roboto, sans-serif;
 }
 
+.Header, .awesome, .Footnote{
+    background-color: #1F2937;
+}
+
+.awesome.title{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+
+.awesome.subtext, li{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button{
+    color: #3882F6;
+}
+.action{
+    background-color: #3882F6;
+}
+
+.random.title{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.what.thor.said{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
