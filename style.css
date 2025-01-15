@@ -6,6 +6,19 @@
     background-color: #1F2937;
 }
 
+.image{
+    width: 600px;
+    height: auto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /*padding-left: 48px;
+    padding-right: 48px;*/
+    margin: 0px;
+}
+
 .awesome.title{
     font-size: 48px;
     color:#F9FAF8;
@@ -17,18 +30,82 @@
     color: #E5E7EB;
 }
 
+.awesome{
+    display: flex;
+    align-items: stretch;
+    padding-bottom: 48px;
+    background-color: #1F2937;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.awesome.text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: -4px;
+}
+
+.awesome.title, .awesome.subtext{
+    display: flex;
+}
+
+.header.link{
+    display: flex;
+    gap: 12px;
+}
+
+
+
+li{
+    list-style: none;
+}
+
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
+}
+
+.Header{
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 48px;
+    border: 8px black;
+}
+.Header{
+    padding-left: 72px;
+    padding-right: 48px;
 }
 
 button{
-    color: #3882F6;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    margin-top: 8px;
+}
+
+.sign.up.button{
+    border: none;
+    margin: 24px;
+    padding: 8px 16px;
+    font-size: 20px;
+
 }
 .action{
     background-color: #3882F6;
+    padding-left: 48px;
+    padding-right: 48px;
 }
 
+
+.random{
+    padding-left: 48px;
+    padding-right: 48px;
+}
 .random.title{
     font-size: 36px;
     color:#1F2937;
@@ -44,4 +121,14 @@ button{
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+}
+
+.quote{
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.footnote{
+    padding-left: 48px;
+    padding-right: 48px;
 }
